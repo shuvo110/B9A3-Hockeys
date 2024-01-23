@@ -40,7 +40,8 @@
                             d="M4 6h16M4 12h8m-8 6h16" />
                     </svg>
                 </div>
-                <h1 class="text-2xl font-extrabold font-Manrope">Hockey’s</h1>
+                <h1 class="text-2xl font-extrabold font-Manrope"><span class="text-red-500">Hoc</span>Hockey<span
+                        class="text-red-500">’</span>s</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -51,15 +52,18 @@
                     <li><a>Contact</a></li>
                 </ul>
             </div>
+
+
             <div class="navbar-end">
-                <a class="btn">Button</a>
+                <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+                <a class="btn ml-4">Button</a>
             </div>
         </div>
 
         <!-- -----Carousel section code start---- -->
         <div class="carousel w-full ">
             <div id="slide1" class="carousel-item relative  w-full">
-                <img src="Images/1.png" class="w-full" />
+                <img src="Images/1.png" class="w-full"/>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"">
                     <a href=" #slide2" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
@@ -73,6 +77,7 @@
                 </div>
             </div>
         </div>
+        
     </header>
 
     <main class="container md:mx-auto">
@@ -95,7 +100,7 @@
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress text-primary" style="--value:70; background-color:rebeccapurple;"
+                    <div class="radial-progress  text-red-500 bg-slate-500" style="--value:70;"
                         role="progressbar">70%</div>
                 </figure>
                 <div class="card-body items-center text-center">
@@ -105,7 +110,7 @@
             </div>
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress text-red-600" style="--value:20;" role="progressbar">20%</div>
+                    <div class="radial-progress text-blue-700 bg-yellow-700" style="--value:50;" role="progressbar">50%</div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -114,7 +119,7 @@
             </div>
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress" style="--value:60;" role="progressbar">60%</div>
+                    <div class="radial-progress  text-red-500 bg-slate-500" style="--value:60;" role="progressbar">60%</div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -123,7 +128,7 @@
             </div>
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress" style="--value:100;" role="progressbar">90%</div>
+                    <div class="radial-progress  text-blue-700 bg-yellow-700" style="--value:90;" role="progressbar">90%</div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -547,10 +552,64 @@
                     </div>
                 </div>
             </div>
-
-          
         </section>
     </main>
+
+    <footer class="footer py-20 pl-20 pr-9 bg-black text-base-content text-[#fffefead] container md:mx-auto">
+        <div class="flex text-center lg:text-left">
+            <aside>
+                <h2 class="text-3xl font-extrabold text-white mb-3 lg:mb-6">Get In Touch</h2>
+                <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in
+                    sit nullam
+                    proin.
+
+                </p>
+                <div class="space-x-3 my-3">
+                    <i class="fa-solid fa-envelope text-red-600"></i>
+                    <span>hockeys@support.com</span>
+                </div>
+                <div class=" space-x-3">
+                    <i class="fa-solid fa-phone text-red-600"></i>
+                    <span>(+62) 123-321-543</span>
+                </div>
+            </aside>
+        </div>
+
+        <div class="grid grid-cols-2  md:flex-row w-full gap-14">
+            <nav class=" lg:mr-12">
+                <h2 class="text-lg font-semibold text-white mb-3 lg:mb-6">Company</h2>
+                <ul class="space-y-2">
+                    <li><a class="link link-hover">About us</a></li>
+                    <li><a class="link link-hover">Leadership</a></li>
+                    <li><a class="link link-hover">Careers</a></li>
+                    <li><a class="link link-hover">News & Article</a></li>
+                    <li><a class="link link-hover">Legal Notice</a></li>
+                </ul>
+            </nav>
+            <nav class="lg:mr-12">
+                <h2 class="text-lg font-semibold text-white mb-3 lg:mb-6">Support</h2>
+                <ul class="space-y-2">
+                    <li><a class="link link-hover">About us</a></li>
+                    <li><a class="link link-hover">Help Center</a></li>
+                    <li><a class="link link-hover">FAQ</a></li>
+                    <li><a class="link link-hover">Ticket Support</a></li>
+                    <li><a class="link link-hover">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="flex text-center  float-left  lg:ml-0 ml-20">
+            <aside>
+                <h2 class="text-lg font-semibold text-white mb-3 lg:mb-6">Services</h2>
+                <ul class="space-y-2">
+                    <li><a class="link link-hover">Academy</a></li>
+                    <li><a class="link link-hover">Group Lesson</a></li>
+                    <li><a class="link link-hover">Private Lesson</a></li>
+                    <li> <a class="link link-hover">Hockeys for kids</a></li>
+                    <li><a class="link link-hover">Hockeys for Adult</a> </li>
+                </ul>
+            </aside>
+        </div>
+    </footer>
 
 </body>
 
