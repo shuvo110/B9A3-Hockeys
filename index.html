@@ -61,23 +61,23 @@
         </div>
 
         <!-- -----Carousel section code start---- -->
-        <div class="carousel w-full ">
-            <div id="slide1" class="carousel-item relative  w-full">
-                <img src="Images/1.png" class="w-full"/>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"">
-                    <a href=" #slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+        <div class="carousel w-full relative">
+            <div id="slide1" class="carousel-item relative  h-screen lg:h-[90vh] w-full overflow-hidden">
+                <img src="Images/1.png" class="h-screen lg:h-[95vh] w-full"/>
+                <div class="absolute flex transform -translate-y-1/2 lg:left-8 left-36 right-5 bottom-20 lg:bottom-10"">
+                    <a href=" #slide2" class="btn btn-circle bg-black text-white mr-3">❮</a>
+                    <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <img src="Images/3.png" class="w-full" />
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
+            <div id="slide2" class="carousel-item relative h-screen lg:h-[90vh] w-full overflow-hidden">
+                <img src="Images/3.png" class="h-screen lg:h-[95vh] w-full" />
+                <div class="absolute flex  transform -translate-y-1/2 lg:left-8 left-36 right-5 bottom-20 lg:bottom-10">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white mr-3">❮</a>
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                 </div>
             </div>
         </div>
-        
+
     </header>
 
     <main class="container md:mx-auto">
@@ -97,11 +97,11 @@
         </section>
 
         <!-- ------ Radial Progress-->
-        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-3">
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress  text-red-500 bg-slate-500" style="--value:70;"
-                        role="progressbar">70%</div>
+                    <div class="radial-progress  text-red-500 bg-slate-500" style="--value:70;" role="progressbar">70%
+                    </div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -110,7 +110,8 @@
             </div>
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress text-blue-700 bg-yellow-700" style="--value:50;" role="progressbar">50%</div>
+                    <div class="radial-progress text-blue-700 bg-yellow-700" style="--value:50;" role="progressbar">50%
+                    </div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -119,7 +120,8 @@
             </div>
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress  text-red-500 bg-slate-500" style="--value:60;" role="progressbar">60%</div>
+                    <div class="radial-progress  text-red-500 bg-slate-500" style="--value:60;" role="progressbar">60%
+                    </div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -128,7 +130,8 @@
             </div>
             <div class="text-center">
                 <figure class="px-10 pt-10">
-                    <div class="radial-progress  text-blue-700 bg-yellow-700" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress  text-blue-700 bg-yellow-700" style="--value:90;" role="progressbar">90%
+                    </div>
                 </figure>
                 <div class="card-body items-center text-center">
                     <h2 class="card-title">Prayer Facility</h2>
@@ -153,9 +156,9 @@
                 </p>
             </div>
 
-            <!-- pik -->
 
-            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mb-14 ">
+
+            <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 mb-14 px-3">
 
                 <div class="hero h-[340px] rounded-2xl overflow-hidden bg-no-repeat bg-cover relative"
                     style="background-image: url(Images/2.png);">
@@ -225,37 +228,40 @@
             </div>
 
             <!-- Card  -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:grid-cols-2 mb-20">
-                <div class="card card-side border-2 border-slate-200 py-3 px-3">
-                    <div class="flex flex-col lg:flex-row">
-                        <img src="Images/5.png" alt="Movie" />
-                        <div class="card-body">
-                            <div class="flex items-center space-x-2">
-                                <i class="fa-solid fa-star text-orange-500"></i>
-                                <p>5.0</p>
-                                <i class="fa-regular fa-eye"></i>
-                                <p>20</p>
-                                <i class="fa-regular fa-heart"></i>
-                                <p>200</p>
-                            </div>
-                            <h2 class="card-title lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
-                            <p class="my-3 font-Manrope font-medium">Dolor sit amet consectetur. Ut urna diam quis
-                                sagittis. </p>
-                            <div class="lg:flex  items-center gap-10">
-                                <span class="text-xl font-extrabold text-red-600">Price - $22.00</span>
-                                <div class="flex items-center space-x-2 py-3">
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                    <p>Delivery Fee : Free</p>
-                                </div>
-                            </div>
-
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:grid-cols-2 mb-20 px-3">
+                <div class="flex flex-col lg:flex-row border-2 border-[#00000031] gap-5 py-5 px-4 rounded-xl">
+                    <div class="lg:w-[200px] lg:h-[180px] w-full">
+                        <img src="Images/5.png" alt="Movie" class="w-full"/>
+                    </div>
+                    <div class="">
+                        <div class="flex items-center space-x-2">
+                            <i class="fa-solid fa-star text-orange-500"></i>
+                            <p>5.0</p>
+                            <i class="fa-regular fa-eye"></i>
+                            <p>20</p>
+                            <i class="fa-regular fa-heart"></i>
+                            <p>200</p>
                         </div>
+                        <h2 class="lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
+                        <p class="my-3 font-Manrope font-medium">Dolor sit amet consectetur. Ut urna diam quis
+                            sagittis. </p>
+                        <div class="lg:flex  items-center gap-10">
+                            <span class="text-xl font-extrabold text-red-600">Price - $22.00</span>
+                            <div class="flex items-center space-x-2 py-3">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <p>Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="card card-side border-2 border-slate-200 py-3 px-3">
-                    <div class="flex flex-col lg:flex-row">
-                        <img src="Images/6.png" alt="Movie" />
-                        <div class="card-body">
+
+                <div>
+                    <div class="flex flex-col lg:flex-row border-2 border-[#00000031] gap-5 py-5 px-4 rounded-xl"">
+                        <div class="lg:w-[200px] lg:h-[180px] w-full overflow-hidden">
+                            <img src="Images/6.png" alt="Movie" class="w-full" />
+                        </div>
+                        <div>
                             <div class="flex items-center space-x-2">
                                 <i class="fa-solid fa-star text-orange-500"></i>
                                 <p>5.0</p>
@@ -264,7 +270,7 @@
                                 <i class="fa-regular fa-heart"></i>
                                 <p>200</p>
                             </div>
-                            <h2 class="card-title lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
+                            <h2 class=" lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
                             <p class="my-3 font-Manrope font-medium">Dolor sit amet consectetur. Ut urna diam quis
                                 sagittis. </p>
                             <div class="lg:flex items-center gap-5">
@@ -278,10 +284,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-side border-2 border-slate-200 py-3 px-3">
-                    <div class="flex flex-col lg:flex-row">
-                        <img src="Images/7.png" alt="Movie" />
-                        <div class="card-body">
+                <div>
+                    <div class="flex flex-col lg:flex-row border-2 border-[#00000031] gap-5 py-5 px-4 rounded-xl">
+                        <div class="lg:w-[200px] lg:h-[180px] w-full overflow-hidden">
+                            <img src="Images/7.png" alt="Movie" class="w-full" />
+                        </div>
+
+                        <div class="">
                             <div class="flex items-center space-x-2">
                                 <i class="fa-solid fa-star text-orange-500"></i>
                                 <p>5.0</p>
@@ -290,7 +299,7 @@
                                 <i class="fa-regular fa-heart"></i>
                                 <p>200</p>
                             </div>
-                            <h2 class="card-title text-2xl font-Manrope font-bold">Cap For Hockeys</h2>
+                            <h2 class="text-2xl font-Manrope font-bold">Cap For Hockeys</h2>
                             <p class="my-3 font-Manrope font-medium">Dolor sit amet consectetur. Ut urna diam quis
                                 sagittis. </p>
                             <div class="lg:flex items-center gap-10">
@@ -304,10 +313,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-side border-2 border-slate-200 py-3 px-3">
-                    <div class="flex flex-col lg:flex-row">
-                        <img src="Images/8.png" alt="Movie" />
-                        <div class="card-body">
+                <div>
+                    <div class="flex flex-col lg:flex-row border-2 border-[#00000031] gap-5 py-5 px-4 rounded-xl">
+                        <div class="lg:w-[200px] lg:h-[180px] w-full overflow-hidden">
+                            <img src="Images/8.png" alt="Movie" class="w-full" />
+                        </div>
+
+                        <div class="">
                             <div class="flex items-center space-x-2">
                                 <i class="fa-solid fa-star text-orange-500"></i>
                                 <p>5.0</p>
@@ -316,7 +328,7 @@
                                 <i class="fa-regular fa-heart"></i>
                                 <p>200</p>
                             </div>
-                            <h2 class="card-title lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
+                            <h2 class="lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
                             <p class="my-3 font-Manrope font-medium">Dolor sit amet consectetur. Ut urna diam quis
                                 sagittis. </p>
                             <div class="lg:flex items-center gap-3">
@@ -330,10 +342,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-side border-2 border-slate-200 py-3 px-3">
-                    <div class="flex flex-col lg:flex-row">
-                        <img src="Images/9.png" alt="Movie" />
-                        <div class="card-body">
+                <div>
+                    <div class="flex flex-col lg:flex-row border-2 border-[#00000031] gap-5 py-5 px-4 rounded-xl">
+                        <div class="lg:w-[200px] lg:h-[180px] w-full overflow-hidden">
+                            <img src="Images/9.png" alt="Movie" class="w-full" />
+                        </div>
+
+                        <div class="">
                             <div class="flex items-center space-x-2">
                                 <i class="fa-solid fa-star text-orange-500"></i>
                                 <p>5.0</p>
@@ -342,7 +357,7 @@
                                 <i class="fa-regular fa-heart"></i>
                                 <p>200</p>
                             </div>
-                            <h2 class="card-title lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
+                            <h2 class="lg:text-2xl font-Manrope font-bold">World Cup Flags Football</h2>
                             <p class="my-3 font-Manrope font-medium">Dolor sit amet consectetur. Ut urna diam quis
                                 sagittis. </p>
                             <div class="lg:flex items-center gap-10">
@@ -356,10 +371,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="card card-side border-2 border-slate-200 py-3 px-3">
-                    <div class="flex flex-col lg:flex-row">
-                        <img src="Images/10.png" alt="Movie" />
-                        <div class="card-body">
+                <div>
+                    <div class="flex flex-col lg:flex-row border-2 border-[#00000031] gap-5 py-5 px-4 rounded-xl">
+                        <div class="lg:w-[200px] lg:h-[180px] w-full overflow-hidden">
+                            <img src="Images/10.png" alt="Movie" class="w-full" />
+                        </div>
+
+                        <div class="">
                             <div class="flex items-center space-x-2">
                                 <i class="fa-solid fa-star text-orange-500"></i>
                                 <p>5.0</p>
@@ -384,6 +402,9 @@
                 </div>
             </div>
         </section>
+   
+       
+
 
         <!-- -------Clients Question---- -->
         <section class="my-10">
@@ -399,7 +420,7 @@
 
             <!---------Clients Question  photo and Question--------->
 
-            <div class="flex flex-col lg:flex-row items-center justify-center gap-8">
+            <div class="flex flex-col lg:flex-row items-center justify-center gap-8 px-3">
                 <img src="Images/11.png" alt="Movie" />
                 <div class="">
                     <div class="collapse collapse-plus  rounded-none border-b-2 border-r-slate-700 py-2">
@@ -470,7 +491,7 @@
         </section>
 
         <!-- ------Get In Touch code start -->
-        <section class="mb-10">
+        <section class="mb-10 px-3">
             <div class="text-center my-20 border-y-2 py-10 border-dotted lg:px-10 ">
                 <h1 class="text-2xl lg:text-3xl font-extrabold font-Manrope">
                     Clients Question
